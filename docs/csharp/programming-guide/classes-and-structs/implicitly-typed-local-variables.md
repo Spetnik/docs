@@ -81,7 +81,7 @@ Local variables can be declared without giving an explicit type. The `var` keywo
   
 -   `var` cannot be used on fields at class scope.  
   
--   Variables declared by using `var` cannot be used in the initialization expression. In other words, this expression is legal`: int i = (i = 20);` but this expression produces a compile-time error: `var i = (i = 20);`  
+-   Variables declared by using `var` cannot be used in the initialization expression. In other words, this expression is legal: `int i = (i = 20);` but this expression produces a compile-time error: `var i = (i = 20);`  
   
 -   Multiple implicitly-typed variables cannot be initialized in the same statement.  
   
